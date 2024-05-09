@@ -361,7 +361,7 @@ textarea{
         font-size: 1em;
         width:20em;
         padding: 2em;
-        height: 50em;
+        height: 55em;
         margin-bottom: 4em;
         display: grid;
         grid-template-columns: 50em;
@@ -405,13 +405,7 @@ textarea{
         font-style: normal;
     }
     .img-p{
-        width: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-left: 10em;
-        padding-top: 5em;
+        display: none;
     }
     .contacto {
         background-color:#FFFFFF;
@@ -599,7 +593,7 @@ textarea{
         padding-left: 4em;
     }
     .img-p{
-        width: 20%;
+        width: 30%;
         display: flex;
         flex-direction: column;
         justify-content: center;
