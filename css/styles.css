@@ -76,10 +76,14 @@ body .cont {
     height: 6em;
     padding: 1em;
   }
-  body header .nav-link {
-    color: hwb(233 0% 74%);
+  body header .arriba {
+    color: #030122;
+    font-size: 1.2em;
+    font-family: "Prompt", sans-serif;
+    font-weight: 500;
+    font-style: normal;
   }
-  body header .nav-link :hover {
+  body header .arriba :hover {
     color: #008DB1;
   }
   body p {
@@ -316,7 +320,6 @@ body .cont {
     font-family: "Prompt", sans-serif;
     font-weight: 500;
     font-style: normal;
-    padding-left: 70em;
   }
   body header .arriba :hover {
     color: #008DB1;
@@ -571,7 +574,6 @@ body .cont {
     font-family: "Prompt", sans-serif;
     font-weight: 500;
     font-style: normal;
-    padding-left: 70em;
   }
   body header .arriba :hover {
     color: #008DB1;
@@ -813,7 +815,6 @@ body .cont {
     font-family: "Prompt", sans-serif;
     font-weight: 500;
     font-style: normal;
-    padding-left: 70em;
   }
   body header .arriba :hover {
     color: #008DB1;
