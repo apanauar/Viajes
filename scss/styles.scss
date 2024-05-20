@@ -1,3 +1,8 @@
+
+@import "header";
+
+
+
 body{
     background-color: #030122;
     section h1{
@@ -49,6 +54,24 @@ body{
         background-size: cover;
         height: 40em;
     }
+    @keyframes redes {
+        0%{
+            transform: scale(1, 1);
+        }
+        25%{
+            transform: scale(1.1, 1.1);
+        }
+        50%{
+            transform: scale(1.2, 1.2);
+        }
+        75%{
+            transform: scale(1.3, 1.3);
+        }
+        100%{
+            transform: scale(1, 1);
+        }
+        
+    }
     
 }
 
@@ -88,6 +111,10 @@ body{
                     padding-left: 4em;
                     text-align: start;
                     color: #f8f8f8;
+                    p{
+                        color: hsl(0, 0%, 7%);
+                        font-weight: 500;
+                    }
                 }
                 main section h1 {
                     font-size: 1.6em;
@@ -232,9 +259,9 @@ body{
         }
         footer {
             font-size: 1em;
-            background-color:#F7F6F6;
+            background-color:hsl(220, 82%, 2%);
             width: 100%;
-            height: 8em;
+            height: 10em;
             padding: 1em;
             padding-left: 4em;
             section h3{
@@ -250,6 +277,23 @@ body{
                 font-family: "Prompt", sans-serif;
                 font-weight: 400;
                 font-style: normal;
+            }
+            .redes{
+                width: 5em;
+                height: 5em;
+                background-image: radial-gradient(#021F54, #3D8AF7);
+                padding: 1.2em;
+                border-radius: 50%;
+                bottom: 5em;
+                right: 3em;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                animation-name: redes;
+                animation-duration:3s ;
+                animation-delay: 0.5s;
+                animation-timing-function: linear;
+                animation-iteration-count: infinite;
             }
         }
         .conteiner-fluid{
@@ -278,8 +322,16 @@ body{
             width: 100%;
             height: 6em;
             padding: 1em;
-            .nav-link{
-                color: hwb(233 0% 74%);
+            .arriba{
+                color: #030122;
+                font-size: 1.2em; 
+                font-family: "Prompt", sans-serif;
+                font-weight: 500;
+                font-style: normal;
+                padding-left: 70em;
+                & :hover{
+                    color: #008DB1;
+                }
             }
         }
         p{
@@ -307,6 +359,10 @@ body{
                     padding: 1em;
                     order: -1;
                     padding-left: 4em;
+                    p{
+                        color: hsl(0, 0%, 7%);
+                        font-weight: 500;
+                    }
                 }
                 main section h1 {
                     font-size: 1.6em;
@@ -334,6 +390,7 @@ body{
             }
         }
         .grid{
+            padding-top: 3em;
             display: grid;
             grid-template-columns:25em 25em;
             grid-template-rows:25em 10em;
@@ -459,7 +516,7 @@ body{
         }
         footer {
             font-size: 1em;
-            background-color:#F7F6F6;
+            background-color:hsl(220, 82%, 2%);
             width: 100%;
             height: 8em;
             padding: 1em;
@@ -477,6 +534,23 @@ body{
                 font-family: "Prompt", sans-serif;
                 font-weight: 400;
                 font-style: normal;
+            }
+            .redes{
+                width: 5em;
+                height: 5em;
+                background-image: radial-gradient(#021F54, #3D8AF7);
+                padding: 1.4em;
+                border-radius: 50%;
+                bottom: 5em;
+                right: 3em;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                animation-name: redes;
+                animation-duration:3s ;
+                animation-delay: 0.5s;
+                animation-timing-function: linear;
+                animation-iteration-count: infinite;
             }
         }
         .conteiner-fluid{
@@ -506,14 +580,16 @@ body{
         height: 6em;
         margin-bottom: 1em;
         padding: 2em;
-        .nav-link{
-            color: hwb(233 0% 74%);
-        }
-        li {
+        .arriba{
+            color: #030122;
             font-size: 1.2em; 
             font-family: "Prompt", sans-serif;
             font-weight: 500;
             font-style: normal;
+            padding-left: 70em;
+            & :hover{
+                color: #008DB1;
+            }
         }
     }
     p{
@@ -533,6 +609,10 @@ body{
                 padding-top: 4em;
                 order: -1;
                 padding-left: 5em;
+                p{
+                    color: hsl(0, 0%, 7%);
+                    font-weight: 500;
+                }
             }
             main section h1 {
                 font-size: 2em; 
@@ -685,7 +765,7 @@ body{
     }
     footer {
         font-size: 1.2em;
-        background-color:#F7F6F6;
+        background-color:hsl(220, 82%, 2%);
         width: auto;
         height: 8em;
         padding: 1em;
@@ -702,6 +782,23 @@ body{
             font-weight: 600;
             font-style: normal;
             text-align: justify;
+        }
+        .redes{
+            width: 5em;
+            height: 5em;
+            background-image: radial-gradient(#021F54, #3D8AF7);
+            padding: 1.4em;
+            border-radius: 50%;
+            bottom: 5em;
+            right: 3em;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            animation-name: redes;
+            animation-duration:3s ;
+            animation-delay: 0.5s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
         }
     }
     .conteiner-fluid{
@@ -730,22 +827,25 @@ body{
         margin-bottom: 1em;
         padding: 2em;
         height: 6em;
-        .nav-link{
-            color: hwb(233 0% 74%);
-        }
-        li {
+        .arriba{
+            color: #030122;
             font-size: 1.2em; 
             font-family: "Prompt", sans-serif;
             font-weight: 500;
             font-style: normal;
+            padding-left: 70em;
+            & :hover{
+                color: #008DB1;
+            }
         }
-        }   
+        
+    }
     p{
         color: #afb2b4;
     }
     main{
         .salvame{
-            padding-top:2em;
+            padding-top:8em;
             display: flex;
             flex-direction: row;
             justify-content: center;
@@ -843,12 +943,12 @@ body{
     .p-fre{
         font-size: 1em;
         width: 100%;
-        height: 20em;
+        height: 40em;
         margin-bottom: 3em;
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(4, 1fr);
-        padding-left: 5em;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        padding-left: 8em;
         article{
             font-size: 1.3em;
             width: 20em;
@@ -872,6 +972,11 @@ body{
         align-items: center;
         padding-left: 5em;
         padding-top: 8em;
+    }
+    .home{
+        background-image: url(../assets/sao-paulo-1936636_1920.jpg);
+        background-size: cover;
+        height: 45em;
     }
     .salvame-home{
         padding-top:2em;
@@ -917,9 +1022,9 @@ body{
     }
     footer {
         font-size: 1.2em;
-        background-color:#F7F6F6;
+        background-color:hsl(220, 82%, 2%);
         width: auto;
-        height: 8em;
+        height: 10em;
         padding: 1em;
         section p{
             font-size: 1.2em;
@@ -935,7 +1040,25 @@ body{
             font-style: normal;
             text-align: justify;
         }
-    }
+        .redes{
+            width: 5em;
+            height: 5em;
+            background-image: radial-gradient(#021F54, #3D8AF7);
+            padding: 1.4em;
+            border-radius: 50%;
+            bottom: 5em;
+            right: 3em;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            animation-name: redes;
+            animation-duration:3s ;
+            animation-delay: 0.5s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+        }
+        
     .conteiner-fluid{
         .d-block-w-100{
             width: 100%;
@@ -953,4 +1076,5 @@ body{
     }
 }
 }
+
 
