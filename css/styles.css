@@ -90,7 +90,7 @@ body .cont {
     color: #afb2b4;
   }
   body main .salvame {
-    padding-top: 2em;
+    padding-top: 12em;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -334,12 +334,11 @@ body .cont {
     height: 30em;
   }
   body main .salvame {
-    padding-top: 2em;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    padding-top: 10em;
     justify-content: center;
+    padding-top: 15em;
   }
   body main .salvame .texto {
     display: flex;
