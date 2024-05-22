@@ -1,0 +1,161 @@
+footer{
+    @include celular{
+            font-size: 1em;
+            background-color:hsl(220, 82%, 2%);
+            width: 100%;
+            height: 10em;
+            padding: 1em;
+            padding-left: 4em;
+            section h3{
+                color: #008DB1;
+                font-size: 1em;
+                font-family: "Prompt", sans-serif;
+                font-weight: 600;
+                font-style: normal;
+                text-align: justify;
+            }
+            section p{
+                font-size: 1.2em;
+                font-family: "Prompt", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+            }
+            .redes{
+                width: 5em;
+                height: 5em;
+                background-image: radial-gradient(#021F54, #3D8AF7);
+                padding: 1.2em;
+                border-radius: 50%;
+                bottom: 5em;
+                right: 3em;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                animation-name: redes;
+                animation-duration:3s ;
+                animation-delay: 0.5s;
+                animation-timing-function: linear;
+                animation-iteration-count: infinite;
+            }
+        }
+    @include tablet{
+            font-size: 1em;
+            background-color:hsl(220, 82%, 2%);
+            width: 100%;
+            height: 8em;
+            padding: 1em;
+            padding-left: 4em;
+            section h3{
+                color: #008DB1;
+                font-size: 1em;
+                font-family: "Prompt", sans-serif;
+                font-weight: 600;
+                font-style: normal;
+                text-align: justify;
+            }
+            section p{
+                font-size: 1.2em;
+                font-family: "Prompt", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+            }
+            .redes{
+                width: 5em;
+                height: 5em;
+                background-image: radial-gradient(#021F54, #3D8AF7);
+                padding: 1.4em;
+                border-radius: 50%;
+                bottom: 5em;
+                right: 3em;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                animation-name: redes;
+                animation-duration:3s ;
+                animation-delay: 0.5s;
+                animation-timing-function: linear;
+                animation-iteration-count: infinite;
+            }
+        }
+    @include desktop1024{
+            font-size: 1.2em;
+            background-color:hsl(220, 82%, 2%);
+            width: auto;
+            height: 8em;
+            padding: 1em;
+            section p{
+                font-size: 1.2em;
+                font-family: "Prompt", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+            }
+            section h3{
+                color: #008DB1;
+                font-size: 1.6em; 
+                font-family: "Prompt", sans-serif;
+                font-weight: 600;
+                font-style: normal;
+                text-align: justify;
+            }
+            .redes{
+                width: 5em;
+                height: 5em;
+                background-image: radial-gradient(#021F54, #3D8AF7);
+                padding: 1.4em;
+                border-radius: 50%;
+                bottom: 5em;
+                right: 3em;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                animation-name: redes;
+                animation-duration:3s ;
+                animation-delay: 0.5s;
+                animation-timing-function: linear;
+                animation-iteration-count: infinite;
+            }
+        }
+    @include desktop1440{
+            font-size: 1.2em;
+            background-color:hsl(220, 82%, 2%);
+            width: auto;
+            height: 10em;
+            padding: 1em;
+            section p{
+                font-size: 1.2em;
+                font-family: "Prompt", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+            }
+            section h3{
+                color: #008DB1;
+                font-size: 1.6em; 
+                font-family: "Prompt", sans-serif;
+                font-weight: 600;
+                font-style: normal;
+                text-align: justify;
+            }
+            .redes{
+                width: 5em;
+                height: 5em;
+                background-image: radial-gradient(#021F54, #3D8AF7);
+                padding: 1.4em;
+                border-radius: 50%;
+                bottom: 5em;
+                right: 3em;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                animation-name: redes;
+                animation-duration:3s ;
+                animation-delay: 0.5s;
+                animation-timing-function: linear;
+                animation-iteration-count: infinite;
+            }
+            }
+}
+
+
+
+
+

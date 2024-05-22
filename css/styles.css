@@ -1,5 +1,83 @@
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  header {
+    background-color: #f8f8f8;
+    width: 100%;
+    height: 6em;
+    padding: 1em;
+  }
+  header .arriba {
+    color: #030122;
+    font-size: 1.2em;
+    font-family: "Prompt", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  header .arriba :hover {
+    color: #008DB1;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  header {
+    background-color: #f8f8f8;
+    width: 100%;
+    height: 6em;
+    padding: 1em;
+  }
+  header .arriba {
+    color: #030122;
+    font-size: 1.2em;
+    font-family: "Prompt", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  header .arriba :hover {
+    color: #008DB1;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  header {
+    background-color: #f8f8f8;
+    width: 100%;
+    height: 6em;
+    margin-bottom: 1em;
+    padding: 2em;
+  }
+  header .arriba {
+    color: #030122;
+    font-size: 1.2em;
+    font-family: "Prompt", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  header .arriba :hover {
+    color: #008DB1;
+  }
+}
+@media screen and (min-width: 1440px) {
+  header {
+    background-color: #f8f8f8;
+    width: 100%;
+    height: 6em;
+    margin-bottom: 1em;
+    padding: 2em;
+  }
+  header .arriba {
+    color: #030122;
+    font-size: 1.2em;
+    font-family: "Prompt", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  header .arriba :hover {
+    color: #008DB1;
+  }
+}
+
 body {
-  background-color: #030122;
+  background-color: rgb(0, 0, 0);
+}
+body p {
+  color: #afb2b4;
 }
 body section h1 {
   color: #F7F6F6;
@@ -65,30 +143,7 @@ body .cont {
     transform: scale(1, 1);
   }
 }
-
 @media screen and (min-width: 320px) and (max-width: 767px) {
-  body {
-    background-color: rgb(0, 0, 0);
-  }
-  body header {
-    background-color: #f8f8f8;
-    width: 100%;
-    height: 6em;
-    padding: 1em;
-  }
-  body header .arriba {
-    color: #030122;
-    font-size: 1.2em;
-    font-family: "Prompt", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  body header .arriba :hover {
-    color: #008DB1;
-  }
-  body p {
-    color: #afb2b4;
-  }
   body main .salvame {
     padding-top: 12em;
     display: flex;
@@ -130,52 +185,6 @@ body .cont {
   }
   body main .salvame .imagen-servicio {
     display: none;
-  }
-  body .grid {
-    display: grid;
-    grid-template-columns: 15em;
-    grid-template-rows: 20em 17em 10em;
-    align-items: center;
-    justify-items: center;
-    height: 40em;
-    padding-left: 1em;
-  }
-  body .grid article {
-    font-size: 1.2em;
-    width: 15em;
-    height: 8em;
-    padding: 1em;
-    margin-bottom: 1em;
-    display: block;
-    color: #f8f8f8;
-  }
-  body .grid section h2 {
-    font-size: 1em;
-    font-family: "Prompt", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  body .grid-n {
-    display: grid;
-    grid-template-columns: 25em;
-    grid-template-rows: 25em 25em 25em;
-    align-items: center;
-    height: 75em;
-  }
-  body .grid-n article {
-    font-size: 1.2em;
-    width: 15em;
-    height: 8em;
-    padding: 1em;
-    margin-bottom: 1em;
-    display: block;
-    color: #f8f8f8;
-  }
-  body .grid-n section h2 {
-    font-size: 1em;
-    font-family: "Prompt", sans-serif;
-    font-weight: 400;
-    font-style: normal;
   }
   body .p-fre {
     font-size: 1em;
@@ -251,82 +260,8 @@ body .cont {
     margin-bottom: 2em;
     padding-top: 2em;
   }
-  body footer {
-    font-size: 1em;
-    background-color: hsl(220, 82%, 2%);
-    width: 100%;
-    height: 10em;
-    padding: 1em;
-    padding-left: 4em;
-  }
-  body footer section h3 {
-    color: #008DB1;
-    font-size: 1em;
-    font-family: "Prompt", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    text-align: justify;
-  }
-  body footer section p {
-    font-size: 1.2em;
-    font-family: "Prompt", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  body footer .redes {
-    width: 5em;
-    height: 5em;
-    background-image: radial-gradient(#021F54, #3D8AF7);
-    padding: 1.2em;
-    border-radius: 50%;
-    bottom: 5em;
-    right: 3em;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    animation-name: redes;
-    animation-duration: 3s;
-    animation-delay: 0.5s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-  }
-  body .conteiner-fluid .d-block-w-100 {
-    width: 90%;
-    padding-left: 2em;
-    padding-top: 10em;
-  }
-  body .conteiner-fluid .carousel-control-prev {
-    margin-bottom: 1em;
-    padding-top: 10em;
-  }
-  body .conteiner-fluid .carousel-control-next {
-    margin-bottom: 1em;
-    padding-top: 10em;
-  }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  body {
-    background-color: rgb(0, 0, 0);
-  }
-  body header {
-    background-color: #f8f8f8;
-    width: 100%;
-    height: 6em;
-    padding: 1em;
-  }
-  body header .arriba {
-    color: #030122;
-    font-size: 1.2em;
-    font-family: "Prompt", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  body header .arriba :hover {
-    color: #008DB1;
-  }
-  body p {
-    color: #afb2b4;
-  }
   body main {
     font-size: 1em;
     background-image: url(../assets/mountains-6272362.jpg);
@@ -377,50 +312,6 @@ body .cont {
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
-  body .grid {
-    padding-top: 3em;
-    display: grid;
-    grid-template-columns: 25em 25em;
-    grid-template-rows: 25em 10em;
-    align-items: center;
-    justify-items: center;
-    height: 15em;
-  }
-  body .grid article {
-    font-size: 1.2em;
-    width: 15em;
-    height: 10em;
-    padding: 1em;
-    margin-bottom: 1em;
-    display: block;
-  }
-  body .grid section h2 {
-    font-size: 1.2em;
-    font-family: "Prompt", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  body .grid-n {
-    display: grid;
-    grid-template-columns: 25em 25em;
-    grid-template-rows: 40em 25em;
-    align-items: center;
-    padding-left: 4em;
-  }
-  body .grid-n article {
-    font-size: 1.2em;
-    width: 15em;
-    height: 10em;
-    padding: 1em;
-    margin-bottom: 1em;
-    display: block;
-  }
-  body .grid-n section h2 {
-    font-size: 1.2em;
-    font-family: "Prompt", sans-serif;
-    font-weight: 400;
-    font-style: normal;
   }
   body .p-fre {
     font-size: 1em;
@@ -504,83 +395,8 @@ body .cont {
     padding-left: 27.8em;
     margin-bottom: 2em;
   }
-  body footer {
-    font-size: 1em;
-    background-color: hsl(220, 82%, 2%);
-    width: 100%;
-    height: 8em;
-    padding: 1em;
-    padding-left: 4em;
-  }
-  body footer section h3 {
-    color: #008DB1;
-    font-size: 1em;
-    font-family: "Prompt", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    text-align: justify;
-  }
-  body footer section p {
-    font-size: 1.2em;
-    font-family: "Prompt", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  body footer .redes {
-    width: 5em;
-    height: 5em;
-    background-image: radial-gradient(#021F54, #3D8AF7);
-    padding: 1.4em;
-    border-radius: 50%;
-    bottom: 5em;
-    right: 3em;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    animation-name: redes;
-    animation-duration: 3s;
-    animation-delay: 0.5s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-  }
-  body .conteiner-fluid .d-block-w-100 {
-    width: 75%;
-    padding-left: 10em;
-    padding-top: 30em;
-  }
-  body .conteiner-fluid .carousel-control-prev {
-    margin-bottom: 1em;
-    padding-top: 30em;
-  }
-  body .conteiner-fluid .carousel-control-next {
-    margin-bottom: 1em;
-    padding-top: 30em;
-  }
 }
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
-  body {
-    background-color: rgb(0, 0, 0);
-  }
-  body header {
-    background-color: #f8f8f8;
-    width: 100%;
-    height: 6em;
-    margin-bottom: 1em;
-    padding: 2em;
-  }
-  body header .arriba {
-    color: #030122;
-    font-size: 1.2em;
-    font-family: "Prompt", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  body header .arriba :hover {
-    color: #008DB1;
-  }
-  body p {
-    color: #afb2b4;
-  }
   body main .salvame {
     padding-top: 2em;
     display: flex;
@@ -627,50 +443,6 @@ body .cont {
     justify-content: flex-start;
     padding-top: 7em;
     padding-left: 2em;
-  }
-  body .grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    align-items: center;
-    justify-items: center;
-    height: 30em;
-  }
-  body .grid article {
-    font-size: 1.3em;
-    width: 20em;
-    height: 10em;
-    padding: 1em;
-    margin-bottom: 3em;
-    display: block;
-  }
-  body .grid section h2 {
-    font-size: 1.2em;
-    font-family: "Prompt", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  body .grid-n {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    align-items: center;
-    justify-items: center;
-    height: 60em;
-  }
-  body .grid-n article {
-    font-size: 1.2em;
-    width: 20em;
-    height: 10em;
-    padding: 1em;
-    margin-bottom: 1em;
-    display: block;
-  }
-  body .grid-n section h2 {
-    font-size: 1.2em;
-    font-family: "Prompt", sans-serif;
-    font-weight: 400;
-    font-style: normal;
   }
   body .p-fre {
     font-size: 1em;
@@ -747,80 +519,10 @@ body .cont {
     justify-content: center;
     padding-left: 29em;
   }
-  body footer {
-    font-size: 1.2em;
-    background-color: hsl(220, 82%, 2%);
-    width: auto;
-    height: 8em;
-    padding: 1em;
-  }
-  body footer section p {
-    font-size: 1.2em;
-    font-family: "Prompt", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  body footer section h3 {
-    color: #008DB1;
-    font-size: 1.6em;
-    font-family: "Prompt", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    text-align: justify;
-  }
-  body footer .redes {
-    width: 5em;
-    height: 5em;
-    background-image: radial-gradient(#021F54, #3D8AF7);
-    padding: 1.4em;
-    border-radius: 50%;
-    bottom: 5em;
-    right: 3em;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    animation-name: redes;
-    animation-duration: 3s;
-    animation-delay: 0.5s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-  }
-  body .conteiner-fluid .d-block-w-100 {
-    width: 70%;
-    padding-left: 20em;
-    margin-bottom: 5em;
-    height: 20em;
-  }
-  body .conteiner-fluid .carousel-control-prev {
-    margin-bottom: 1em;
-  }
-  body .conteiner-fluid .carousel-control-next {
-    margin-bottom: 1em;
-  }
 }
 @media screen and (min-width: 1440px) {
   body {
     background-color: rgb(0, 0, 0);
-  }
-  body header {
-    background-color: #f8f8f8;
-    width: auto;
-    margin-bottom: 1em;
-    padding: 2em;
-    height: 6em;
-  }
-  body header .arriba {
-    color: #030122;
-    font-size: 1.2em;
-    font-family: "Prompt", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  body header .arriba :hover {
-    color: #008DB1;
-  }
-  body p {
-    color: hwb(0 63% 36%);
   }
   body main .salvame {
     padding-top: 8em;
@@ -872,50 +574,6 @@ body .cont {
     flex-direction: column;
     justify-content: flex-start;
     padding-left: 2em;
-  }
-  body .grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    align-items: center;
-    justify-items: center;
-    height: 30em;
-    padding-top: 8em;
-  }
-  body .grid article {
-    font-size: 1.3em;
-    width: 20em;
-    height: 10em;
-    padding: 1em;
-    margin-bottom: 3em;
-    display: block;
-  }
-  body .grid section h2 {
-    font-size: 1.2em;
-    font-family: "Prompt", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  body .grid-n {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    align-items: center;
-    padding-left: 5em;
-  }
-  body .grid-n article {
-    font-size: 1.3em;
-    width: 20em;
-    height: 10em;
-    padding: 1em;
-    margin-bottom: 3em;
-    display: block;
-  }
-  body .grid-n section h2 {
-    font-size: 1.2em;
-    font-family: "Prompt", sans-serif;
-    font-weight: 400;
-    font-style: normal;
   }
   body .p-fre {
     font-size: 1em;
@@ -997,28 +655,329 @@ body .cont {
     justify-content: center;
     padding-left: 38em;
   }
-  body footer {
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 15em;
+    grid-template-rows: 20em 17em 10em;
+    align-items: center;
+    justify-items: center;
+    height: 40em;
+    padding-left: 1em;
+  }
+  .grid article {
     font-size: 1.2em;
-    background-color: hsl(220, 82%, 2%);
-    width: auto;
+    width: 15em;
+    height: 8em;
+    padding: 1em;
+    margin-bottom: 1em;
+    display: block;
+    color: #f8f8f8;
+  }
+  .grid section h2 {
+    font-size: 1em;
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .grid {
+    padding-top: 3em;
+    display: grid;
+    grid-template-columns: 25em 25em;
+    grid-template-rows: 25em 10em;
+    align-items: center;
+    justify-items: center;
+    height: 15em;
+  }
+  .grid article {
+    font-size: 1.2em;
+    width: 15em;
     height: 10em;
     padding: 1em;
+    margin-bottom: 1em;
+    display: block;
   }
-  body footer section p {
+  .grid section h2 {
     font-size: 1.2em;
     font-family: "Prompt", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
-  body footer section h3 {
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    height: 30em;
+  }
+  .grid article {
+    font-size: 1.3em;
+    width: 20em;
+    height: 10em;
+    padding: 1em;
+    margin-bottom: 3em;
+    display: block;
+  }
+  .grid section h2 {
+    font-size: 1.2em;
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    height: 30em;
+    padding-top: 8em;
+  }
+  .grid article {
+    font-size: 1.3em;
+    width: 20em;
+    height: 10em;
+    padding: 1em;
+    margin-bottom: 3em;
+    display: block;
+  }
+  .grid section h2 {
+    font-size: 1.2em;
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .grid-n {
+    display: grid;
+    grid-template-columns: 25em;
+    grid-template-rows: 25em 25em 25em;
+    align-items: center;
+    height: 75em;
+  }
+  .grid-n article {
+    font-size: 1.2em;
+    width: 15em;
+    height: 8em;
+    padding: 1em;
+    margin-bottom: 1em;
+    display: block;
+    color: #f8f8f8;
+  }
+  .grid-n section h2 {
+    font-size: 1em;
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .grid-n {
+    display: grid;
+    grid-template-columns: 25em 25em;
+    grid-template-rows: 40em 25em;
+    align-items: center;
+    padding-left: 4em;
+  }
+  .grid-n article {
+    font-size: 1.2em;
+    width: 15em;
+    height: 10em;
+    padding: 1em;
+    margin-bottom: 1em;
+    display: block;
+  }
+  .grid-n section h2 {
+    font-size: 1.2em;
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .grid-n {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    height: 60em;
+  }
+  .grid-n article {
+    font-size: 1.2em;
+    width: 20em;
+    height: 10em;
+    padding: 1em;
+    margin-bottom: 1em;
+    display: block;
+  }
+  .grid-n section h2 {
+    font-size: 1.2em;
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .grid-n {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    align-items: center;
+    padding-left: 5em;
+  }
+  .grid-n article {
+    font-size: 1.3em;
+    width: 20em;
+    height: 10em;
+    padding: 1em;
+    margin-bottom: 3em;
+    display: block;
+  }
+  .grid-n section h2 {
+    font-size: 1.2em;
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .conteiner-fluid .d-block-w-100 {
+    width: 90%;
+    padding-left: 2em;
+    padding-top: 10em;
+  }
+  .conteiner-fluid .carousel-control-prev {
+    margin-bottom: 1em;
+    padding-top: 10em;
+  }
+  .conteiner-fluid .carousel-control-next {
+    margin-bottom: 1em;
+    padding-top: 10em;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .conteiner-fluid .d-block-w-100 {
+    width: 75%;
+    padding-left: 10em;
+    padding-top: 30em;
+  }
+  .conteiner-fluid .carousel-control-prev {
+    margin-bottom: 1em;
+    padding-top: 30em;
+  }
+  .conteiner-fluid .carousel-control-next {
+    margin-bottom: 1em;
+    padding-top: 30em;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .conteiner-fluid .d-block-w-100 {
+    width: 70%;
+    padding-left: 20em;
+    margin-bottom: 5em;
+    height: 20em;
+  }
+  .conteiner-fluid .carousel-control-prev {
+    margin-bottom: 1em;
+  }
+  .conteiner-fluid .carousel-control-next {
+    margin-bottom: 1em;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .conteiner-fluid .d-block-w-100 {
+    width: 100%;
+    padding-left: 30em;
+    margin-bottom: 5em;
+    height: 35em;
+    padding-right: 30em;
+  }
+  .conteiner-fluid .carousel-control-prev {
+    margin-bottom: 1em;
+  }
+  .conteiner-fluid .carousel-control-next {
+    margin-bottom: 1em;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  footer {
+    font-size: 1em;
+    background-color: hsl(220, 82%, 2%);
+    width: 100%;
+    height: 10em;
+    padding: 1em;
+    padding-left: 4em;
+  }
+  footer section h3 {
     color: #008DB1;
-    font-size: 1.6em;
+    font-size: 1em;
     font-family: "Prompt", sans-serif;
     font-weight: 600;
     font-style: normal;
     text-align: justify;
   }
-  body footer .redes {
+  footer section p {
+    font-size: 1.2em;
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  footer .redes {
+    width: 5em;
+    height: 5em;
+    background-image: radial-gradient(#021F54, #3D8AF7);
+    padding: 1.2em;
+    border-radius: 50%;
+    bottom: 5em;
+    right: 3em;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    animation-name: redes;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  footer {
+    font-size: 1em;
+    background-color: hsl(220, 82%, 2%);
+    width: 100%;
+    height: 8em;
+    padding: 1em;
+    padding-left: 4em;
+  }
+  footer section h3 {
+    color: #008DB1;
+    font-size: 1em;
+    font-family: "Prompt", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: justify;
+  }
+  footer section p {
+    font-size: 1.2em;
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  footer .redes {
     width: 5em;
     height: 5em;
     background-image: radial-gradient(#021F54, #3D8AF7);
@@ -1035,17 +994,84 @@ body .cont {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
   }
-  body .conteiner-fluid .d-block-w-100 {
-    width: 100%;
-    padding-left: 30em;
-    margin-bottom: 5em;
-    height: 35em;
-    padding-right: 30em;
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  footer {
+    font-size: 1.2em;
+    background-color: hsl(220, 82%, 2%);
+    width: auto;
+    height: 8em;
+    padding: 1em;
   }
-  body .conteiner-fluid .carousel-control-prev {
-    margin-bottom: 1em;
+  footer section p {
+    font-size: 1.2em;
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
-  body .conteiner-fluid .carousel-control-next {
-    margin-bottom: 1em;
+  footer section h3 {
+    color: #008DB1;
+    font-size: 1.6em;
+    font-family: "Prompt", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: justify;
+  }
+  footer .redes {
+    width: 5em;
+    height: 5em;
+    background-image: radial-gradient(#021F54, #3D8AF7);
+    padding: 1.4em;
+    border-radius: 50%;
+    bottom: 5em;
+    right: 3em;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    animation-name: redes;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+}
+@media screen and (min-width: 1440px) {
+  footer {
+    font-size: 1.2em;
+    background-color: hsl(220, 82%, 2%);
+    width: auto;
+    height: 10em;
+    padding: 1em;
+  }
+  footer section p {
+    font-size: 1.2em;
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  footer section h3 {
+    color: #008DB1;
+    font-size: 1.6em;
+    font-family: "Prompt", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: justify;
+  }
+  footer .redes {
+    width: 5em;
+    height: 5em;
+    background-image: radial-gradient(#021F54, #3D8AF7);
+    padding: 1.4em;
+    border-radius: 50%;
+    bottom: 5em;
+    right: 3em;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    animation-name: redes;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
   }
 }/*# sourceMappingURL=styles.css.map */

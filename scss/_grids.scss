@@ -1,0 +1,185 @@
+
+.grid{
+    @include celular{
+            display: grid;
+            grid-template-columns:15em;
+            grid-template-rows:20em 17em 10em;
+            align-items: center;
+            justify-items: center;
+            height: 40em;
+            padding-left: 1em;
+            article{
+                font-size: 1.2em;
+                width: 15em;
+                height: 8em;
+                padding: 1em;
+                margin-bottom: 1em;
+                display: block;
+                color: #f8f8f8;
+            }
+            section h2{
+                font-size: 1em;
+                font-family: "Prompt", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+            }
+        }
+    @include tablet{
+            padding-top: 3em;
+            display: grid;
+            grid-template-columns:25em 25em;
+            grid-template-rows:25em 10em;
+            align-items: center;
+            justify-items: center;
+            height: 15em;
+            article{
+                font-size: 1.2em;
+                width: 15em;
+                height: 10em;
+                padding: 1em;
+                margin-bottom: 1em;
+                display: block;
+            }
+            section h2{
+                font-size: 1.2em;
+                font-family: "Prompt", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+            }
+        }
+        @include desktop1024{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(2, 1fr);
+                align-items: center;
+                justify-items: center;
+                height:30em;
+                article{
+                font-size: 1.3em;
+                width: 20em;
+                height: 10em;
+                padding: 1em;
+                margin-bottom: 3em;
+                display: block;
+                }
+                section h2{
+                font-size: 1.2em;
+                font-family: "Prompt", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                }
+            }
+            @include desktop1440{
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-template-rows: repeat(3, 1fr);
+                    align-items: center;
+                    justify-items: center;
+                    height: 30em;
+                    padding-top: 8em;
+                    article{
+                        font-size: 1.3em;
+                        width: 20em;
+                        height: 10em;
+                        padding: 1em;
+                        margin-bottom: 3em;
+                        display: block;
+                    }
+                    section h2{
+                        font-size: 1.2em;
+                        font-family: "Prompt", sans-serif;
+                        font-weight: 400;
+                        font-style: normal;
+                    }
+                }
+}
+
+
+.grid-n{
+    @include celular{
+            display: grid;
+            grid-template-columns:25em;
+            grid-template-rows: 25em 25em 25em;
+            align-items: center;
+            height:75em;
+            article{
+                font-size: 1.2em;
+                width: 15em;
+                height: 8em;
+                padding: 1em;
+                margin-bottom: 1em;
+                display: block;
+                color: #f8f8f8;
+            }
+            section h2{
+                font-size: 1em;
+                font-family: "Prompt", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+            }
+        }
+        @include tablet{
+                display: grid;
+                grid-template-columns:25em 25em;
+                grid-template-rows: 40em 25em;
+                align-items: center;
+                padding-left: 4em;
+                article{
+                    font-size: 1.2em;
+                    width: 15em;
+                    height: 10em;
+                    padding: 1em;
+                    margin-bottom: 1em;
+                    display: block;
+                }
+                section h2{
+                    font-size: 1.2em;
+                    font-family: "Prompt", sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                }
+            }
+            @include desktop1024{
+                    display: grid;
+                    grid-template-columns:repeat(2, 1fr);
+                    grid-template-rows: repeat(2, 1fr);
+                    align-items: center;
+                    justify-items: center;
+                    height: 60em;
+                    article{
+                    font-size: 1.2em;
+                    width: 20em;
+                    height: 10em;
+                    padding: 1em;
+                    margin-bottom: 1em;
+                    display: block;
+                    }
+                    section h2{
+                    font-size: 1.2em;
+                    font-family: "Prompt", sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    }
+                }
+                @include desktop1440{
+                        display: grid;
+                        grid-template-columns:repeat(3, 1fr);
+                        grid-template-rows: repeat(1, 1fr) ;
+                        align-items: center;
+                        padding-left: 5em;
+                        article{
+                            font-size: 1.3em;
+                            width: 20em;
+                            height: 10em;
+                            padding: 1em;
+                            margin-bottom: 3em;
+                            display: block;
+                        }
+                        section h2{
+                            font-size: 1.2em;
+                            font-family: "Prompt", sans-serif;
+                            font-weight: 400;
+                            font-style: normal;
+                        }
+                    }
+                }

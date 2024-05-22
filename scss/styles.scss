@@ -1,82 +1,10 @@
 
-html{
-
-body{
-    background-color: #030122;
-    section h1{
-        color: #F7F6F6;
-    }
-    section h2{
-    color: #F7F6F6;
-    }
-    section h3{
-        color: hsl(194, 98%, 43%);
-    }
-    .form-control{
-        input  {
-            display: block;
-            margin-bottom: 1em;
-        }
-        textarea{
-            height: 2em;
-        }
-        .submit{
-            display: block;
-            border-radius: 2%;
-            width: 4em;
-            height: 2em;
-        }
-    }
-    .servicio{
-        background-image: url(../assets/nature-3201813.jpg);
-        background-size: cover;
-        height: 40em;
-    }
-    .faq{
-        background-image: url(../assets/bahamas-410143.jpg);
-        background-size: cover;
-        height: 40em;
-    }
-    .home{
-        background-image: url(../assets/sao-paulo-1936636_1920.jpg);
-        background-size: cover;
-        height: 40em;
-    }
-    .nois{
-        background-image: url(../assets/sunset-1637376.jpg);
-        background-size: cover;
-        height: 40em;
-    }
-    .cont{
-        background-image: url(../assets/alps-7504344.jpg);
-        background-size: cover;
-        height: 40em;
-    }
-    @keyframes redes {
-        0%{
-            transform: scale(1, 1);
-        }
-        25%{
-            transform: scale(1.1, 1.1);
-        }
-        50%{
-            transform: scale(1.2, 1.2);
-        }
-        75%{
-            transform: scale(1.3, 1.3);
-        }
-        100%{
-            transform: scale(1, 1);
-        }
-        
-    }
-}
-@import "_mobil"
-@import "_tablet"
-@import "_desktop1024"
-@import "_desktop1440"
-
-}
+@import "mediaquerys";
+@import "header";
+@import "body";
+@import "grids";
+@import "carrusel";
+@import "footer";
 
 
 

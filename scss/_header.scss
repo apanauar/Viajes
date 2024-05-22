@@ -1,0 +1,69 @@
+header{
+    @include tablet{ 
+        background-color:#f8f8f8;
+        width: 100%;
+        height: 6em;
+        padding: 1em;
+        .arriba{
+            color: #030122;
+            font-size: 1.2em; 
+            font-family: "Prompt", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            & :hover{
+                color: #008DB1;
+            }
+        }
+    }
+    
+    @include celular{
+            background-color:#f8f8f8;
+            width: 100%;
+            height: 6em;
+            padding: 1em;
+            .arriba{
+                color: #030122;
+                font-size: 1.2em; 
+                font-family: "Prompt", sans-serif;
+                font-weight: 500;
+                font-style: normal;
+                & :hover{
+                    color: #008DB1;
+                }
+            }
+        }
+    @include desktop1024{
+        background-color:#f8f8f8;
+        width: 100% ;
+        height: 6em;
+        margin-bottom: 1em;
+        padding: 2em;
+        .arriba{
+            color: #030122;
+            font-size: 1.2em; 
+            font-family: "Prompt", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            & :hover{
+                color: #008DB1;
+            }
+        }
+    }
+    @include desktop1440{
+        background-color:#f8f8f8;
+        width: 100% ;
+        height: 6em;
+        margin-bottom: 1em;
+        padding: 2em;
+        .arriba{
+            color: #030122;
+            font-size: 1.2em; 
+            font-family: "Prompt", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            & :hover{
+                color: #008DB1;
+            }
+        }
+    }
+}
