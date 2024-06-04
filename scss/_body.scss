@@ -14,6 +14,13 @@ body{
         color: hsl(194, 98%, 43%);
     }
     .form-control{
+        align-items: center;
+        font-size: 1.2em;
+        height: 40em;
+        background-color: hsl(236, 94%, 7%);
+        label{
+            color: #afb2b4;
+        }
         input  {
             display: block;
             margin-bottom: 1em;
@@ -24,7 +31,7 @@ body{
         .submit{
             display: block;
             border-radius: 2%;
-            width: 4em;
+            width: 6em;
             height: 2em;
         }
     }
@@ -48,10 +55,9 @@ body{
         background-size: cover;
         height: 40em;
     }
-    .cont{
-        background-image: url(../assets/alps-7504344.jpg);
-        background-size: cover;
-        height: 40em;
+    .mapa{
+        color: #f8f8f8;
+        padding-top: 4em;
     }
     @keyframes redes {
         0%{
@@ -95,6 +101,7 @@ body{
                         font-weight: 500;
                     }
                 }
+                }
                 main section h1 {
                     font-size: 1.6em;
                     font-family: "Prompt", sans-serif;
@@ -115,7 +122,6 @@ body{
                     display: none;
                 }
             }
-        }
         .p-fre{
             font-size: 1em;
             width:20em;
@@ -143,13 +149,7 @@ body{
             }
         }
         .img-n{
-            width: 10em;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding-left: 1em;
-            padding-top: 8em;
+            display: none;
         }
         .salvame-home{
             padding-top:20em;
@@ -190,7 +190,48 @@ body{
             margin-bottom: 2em;
             padding-top: 2em;
         }
-    }
+        .salvame-cont{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            background-image: url(../assets/lantern-6826698_1920.jpg);
+            height: 50em;
+            .texto-cont{
+                display: flex;
+                flex-direction: column;
+                font-size: 1em;
+                height: 15em;
+                margin-bottom: 5em;
+            }
+            .imagen-cont{
+                display: flex;
+                flex-direction: column;
+                font-size: 1.2em;
+                height: 30em;
+                padding: 1em;
+                margin-bottom: 5em;
+                padding-top: 6em;
+                
+                p{
+                    color: #ffffff;
+                    font-family: "Prompt", sans-serif;
+                    font-weight: 700;
+                    font-style: normal;
+                }
+                h1{
+                    color: #ffffff;
+                    font-family: "Prompt", sans-serif;
+                    font-weight: 700;
+                    font-style: normal;
+                }
+            }
+            }
+            .logo{
+                font-size: 1em;
+                color: hwb(195 1% 16%);
+                font-family: "Prompt", sans-serif;
+            }
+        }
     @include tablet{
         main {
             font-size: 1em;
@@ -325,6 +366,56 @@ body{
             padding-left: 27.8em;
             margin-bottom: 2em;
         }
+        .salvame-cont{
+            padding-top:8em;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            width: 100%;
+            padding-left: 2em;
+            background-image: url(../assets/lantern-6826698_1920.jpg);
+            height: 40em;
+            .texto-cont{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                font-size: 1em;
+                width: 50%;
+                height: 15em;
+                padding: 1em;
+                margin-bottom: 5em;
+                order: 1;
+            }
+            .imagen-cont{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                font-size: 1.2em;
+                width: 50%;
+                height: 11em;
+                padding: 1em;
+                margin-bottom: 5em;
+                order: -1;
+                
+                p{
+                    color: #ffffff;
+                    font-family: "Prompt", sans-serif;
+                    font-weight: 700;
+                    font-style: normal;
+                }
+                h1{
+                    color: #ffffff;
+                    font-family: "Prompt", sans-serif;
+                    font-weight: 700;
+                    font-style: normal;
+                }
+            }
+        }
+        .logo{
+            font-size: 1em;
+            color: hwb(195 1% 16%);
+            font-family: "Prompt", sans-serif;
+        }
     }
     @include desktop1024{
         main{
@@ -450,6 +541,53 @@ body{
             color: hwb(240 5% 95%);
             justify-content: center;
             padding-left: 29em;
+        }
+        .salvame-cont{
+            padding-top:2em;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            padding-left: 6em;
+            width: 100%;
+            padding: 7em;
+            background-image: url(../assets/lantern-6826698_1920.jpg);
+            .texto-cont{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                font-size: 1em;
+                width: 50%;
+                height: 10em;
+                padding: 3em;
+                order: 1;
+                padding-top: 12em;
+            }
+            .imagen-cont{
+                display: flex;
+                justify-content: flex-start; 
+                flex-direction: column;
+                justify-content: center;
+                font-size: 1.4em;
+                width: 50%;
+                height: 16em;
+                padding: 1em;
+                order: -1;
+                p{
+                    color: #ffffff;
+                    font-family: "Prompt", sans-serif;
+                    font-weight: 700;
+                    font-style: normal;
+                }
+                h1{
+                    color: #ffffff;
+                    font-family: "Prompt", sans-serif;
+                    font-weight: 700;
+                    font-style: normal;
+                }
+            }
+        }
+        .logo{
+            display: none;
         }
     }
     @include desktop1440{
@@ -586,6 +724,55 @@ body{
             font-style: normal;
             justify-content: center;
             padding-left: 38em;
+        }
+        .salvame-cont{
+            padding-top:2em;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            width: 100%;
+            padding: 10em;
+            background-image: url(../assets/lantern-6826698_1920.jpg);
+            .texto-cont{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                font-size: 1em;
+                width: 30%;
+                height: 11em;
+                order: 1;
+                padding-top: 12em;
+                border-radius: 3%;
+            }
+            .imagen-cont{
+                display: flex;
+                justify-content: flex-start; 
+                flex-direction: column;
+                justify-content: center;
+                font-size: 1.4em;
+                width: 60%;
+                height: 17em;
+                padding: 7em;
+                order: -1;
+                padding-top: 8em;
+                border-radius: 3%;
+                p{
+                    color: #ffffff;
+                    font-family: "Prompt", sans-serif;
+                    font-weight: 700;
+                    font-style: normal;
+                }
+                h1{
+                    color: hwb(0 100% 0%);
+                    font-size: 1.6em;
+                    font-family: "Prompt", sans-serif;
+                    font-weight: 700;
+                    font-style: normal;
+                }
+            }
+        }
+        .logo{
+            display: none;
         }
     }
 }
